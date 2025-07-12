@@ -49,13 +49,14 @@ java ClockTest
 
 ->When the alarm triggers, the WAV file will play, and the console will prompt you to press Enter to stop the alarm sound.
 
-#####Code Overview
+#####Code Overview 
 
 * Clock.java: Implements Runnable that continuously updates the time until the alarm time is reached, then plays the alarm sound.
 
 * ClockTest.java: Sample main class to demonstrate how to create and start the alarm clock thread.
 
 ######Notes
+
 + Ensure your WAV file path is correct relative to the running directory.
 
 + The program uses console output with carriage return (\r) to update the time display on a single line.
@@ -64,16 +65,16 @@ java ClockTest
 
 + Tested on Java 8+ and Windows/Linux terminals; behavior might vary in some IDE consoles.
 
-License:
+💡License:
 
 This project is open source under the MIT License.
 
-Contact:
+💡Contact:
 
 Developed by Dulan Dhanush
 Feel free to open issues or submit pull requests.
 
-Example Main Method (ClockTest.java)->
+💡Example Main Method (ClockTest.java)->
 
 import java.time.LocalTime;
 import java.util.Scanner;
